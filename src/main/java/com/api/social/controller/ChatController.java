@@ -1,5 +1,4 @@
 package com.api.social.controller;
-import com.api.social.repository.ChatRepository;
 import com.api.social.service.*;
 
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/chat")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200", "social-flame-pi.vercel.app"})
 public class ChatController {
 
 
