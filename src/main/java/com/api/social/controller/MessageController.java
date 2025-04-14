@@ -7,7 +7,7 @@ import com.api.social.service.MessageService;
 
 @RestController
 @RequestMapping("/message")
-@CrossOrigin(origins = {"http://localhost:4200", "social-flame-pi.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://social-flame-pi.vercel.app/"})
 public class MessageController {
 	
 	private MessageService messageService;

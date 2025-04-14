@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/chat")
-@CrossOrigin(origins = {"http://localhost:4200", "social-flame-pi.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://social-flame-pi.vercel.app/"})
 public class ChatController {
 
 

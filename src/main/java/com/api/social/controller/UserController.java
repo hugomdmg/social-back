@@ -13,7 +13,7 @@ import com.api.social.service.UserService;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = {"http://localhost:4200", "social-flame-pi.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://social-flame-pi.vercel.app/"})
 
 public class UserController {
 	
